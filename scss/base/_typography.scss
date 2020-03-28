@@ -1,0 +1,24 @@
+html {
+  /*10px = 1rem*/
+  font-size: $root-font-size;
+}
+
+@media only screen and (max-width: $tablet-size) {
+  /* Tablet */
+  html {
+    /* 1rem = 10px */
+    font-size: $tablet-font-size;
+  }
+}
+
+@media only screen and (max-width: $mobile-size) {
+  /* Mobile */
+  html {
+    /* 1rem = 10px */
+    font-size: $mobile-font-size;
+  }
+}
+
+body {
+  font-family: "Josefin Sans";
+}
