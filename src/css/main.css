@@ -1,37 +1,76 @@
-@import url("https://fonts.google.com/specimen/Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap");
 *,
 *::before,
 *::after {
   padding: 0;
   margin: 0;
-  box-sizing: inherit;
-}
+  box-sizing: inherit; }
 
 body {
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 html {
   /*10px = 1rem*/
-  font-size: 62.5%;
-}
+  font-size: 62.5%; }
 
 @media only screen and (max-width: 900px) {
   /* Tablet */
   html {
     /* 1rem = 10px */
-    font-size: 56.25%;
-  }
-}
+    font-size: 56.25%; } }
 
 @media only screen and (max-width: 600px) {
   /* Mobile */
   html {
     /* 1rem = 10px */
-    font-size: 50%;
-  }
-}
+    font-size: 50%; } }
 
 body {
-  font-family: "Josefin Sans";
-}
+  font-family: "Josefin Sans", sans-serif; }
+
+.art__tit {
+  text-align: center; }
+  .art__tit .art__tit--fir,
+  .art__tit .art__tit--sec,
+  .art__tit .art__tit--tir {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #ce9797; }
+  .art__tit .art__tit--sec,
+  .art__tit .art__tit--tir {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #413a3a; }
+
+.art__txt {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.7; }
+
+.logo {
+  display: flex;
+  flex: 1;
+  height: 8vh;
+  flex-direction: row;
+  align-items: center; }
+  .logo .logo__img {
+    width: 12rem;
+    margin-left: 3rem; }
+
+.header__banner {
+  background-image: url("../../src/images/hero-mobile.jpg");
+  background-size: cover;
+  height: 30vh; }
+
+.info {
+  margin: 5rem 4rem 0 4rem; }
+
+.art__tit .art__tit--fir,
+.art__tit .art__tit--sec,
+.art__tit .art__tit--tir {
+  display: block; }
+
+.art__txt {
+  margin-top: 2rem; }

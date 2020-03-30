@@ -1,0 +1,12 @@
+.logo {
+  display: flex;
+  flex: 1;
+  height: 8vh;
+  flex-direction: row;
+  align-items: center;
+
+  .logo__img {
+    width: 12rem;
+    margin-left: 3rem;
+  }
+}

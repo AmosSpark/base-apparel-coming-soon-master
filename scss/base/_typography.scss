@@ -20,5 +20,32 @@ html {
 }
 
 body {
-  font-family: "Josefin Sans";
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.art__tit {
+  text-align: center;
+
+  .art__tit--fir,
+  .art__tit--sec,
+  .art__tit--tir {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: $font-weight-s;
+    color: $pri-des-red;
+  }
+
+  .art__tit--sec,
+  .art__tit--tir {
+    font-size: 5rem;
+    text-transform: uppercase;
+    font-weight: $font-weight-b;
+    color: $neu-gray-red;
+  }
+}
+
+.art__txt {
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.7;
 }
