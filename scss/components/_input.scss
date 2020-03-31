@@ -1,1 +1,17 @@
+.pg-fm {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
 
+  .pg-fm__inp {
+    width: 70vw;
+    height: 5vh;
+    border-radius: 5rem;
+    outline: none;
+    border: 0.1rem solid $pri-des-red;
+
+    &::placeholder {
+      padding: 3rem;
+    }
+  }
+}

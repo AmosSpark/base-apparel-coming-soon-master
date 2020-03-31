@@ -1,0 +1,14 @@
+.pg-fm {
+  .btn {
+    width: 20vw;
+    z-index: 1;
+    background-image: url("../../src/images/icon-arrow.svg");
+    color: $lin-a;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .btn--round {
+    border-radius: 5rem;
+  }
+}
