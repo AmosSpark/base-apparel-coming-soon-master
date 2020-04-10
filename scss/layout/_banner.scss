@@ -3,3 +3,12 @@
   background-size: cover;
   height: 30vh;
 }
+
+@media only screen and (min-width: $desktop-size) {
+  .banner {
+    height: 100vh;
+    background-image: url("../../src/images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

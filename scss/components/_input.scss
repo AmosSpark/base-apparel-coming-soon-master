@@ -1,7 +1,7 @@
 .pg-fm {
   margin-top: 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: start;
 
   .pg-fm__inp {
     width: 70vw;
@@ -13,5 +13,11 @@
     &::placeholder {
       padding: 3rem;
     }
+  }
+}
+
+@media only screen and (min-width: $desktop-size) {
+  .pg-fm__inp {
+    width: 30vw !important;
   }
 }

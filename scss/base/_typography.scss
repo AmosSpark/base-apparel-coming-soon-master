@@ -50,3 +50,18 @@ body {
   line-height: 1.7;
   color: $neu-gray-red;
 }
+
+@media only screen and (min-width: $desktop-size) {
+  html {
+    font-size: $desktop-font-size;
+  }
+
+  .art__tit,
+  .art__txt {
+    text-align: left;
+  }
+
+  .art__txt {
+    font-size: 1.3rem;
+  }
+}

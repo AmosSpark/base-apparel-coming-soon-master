@@ -50,6 +50,15 @@ body {
   line-height: 1.7;
   color: #413a3a; }
 
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .art__tit,
+  .art__txt {
+    text-align: left; }
+  .art__txt {
+    font-size: 1.3rem; } }
+
 .logo {
   display: flex;
   flex: 1;
@@ -60,10 +69,14 @@ body {
     width: 12rem;
     margin-left: 3rem; }
 
+@media only screen and (min-width: 1200px) {
+  .logo {
+    margin-top: 3rem; } }
+
 .pg-fm {
   margin-top: 3rem;
   display: flex;
-  justify-content: center; }
+  justify-content: start; }
   .pg-fm .pg-fm__inp {
     width: 70vw;
     height: 5vh;
@@ -73,21 +86,50 @@ body {
     .pg-fm .pg-fm__inp::placeholder {
       padding: 3rem; }
 
+@media only screen and (min-width: 1200px) {
+  .pg-fm__inp {
+    width: 30vw !important; } }
+
 .pg-fm .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   width: 20vw;
-  z-index: 1;
-  background-image: url("../../src/images/icon-arrow.svg");
-  color: linear-gradient(135deg, white, #fff5f5);
-  background-repeat: no-repeat;
-  background-position: center; }
+  background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c); }
 
 .pg-fm .btn--round {
   border-radius: 5rem; }
+
+@media only screen and (min-width: 1200px) {
+  .btn {
+    width: 5vw !important; } }
 
 .header__banner {
   background-image: url("../../src/images/hero-mobile.jpg");
   background-size: cover;
   height: 30vh; }
+
+@media only screen and (min-width: 1200px) {
+  .banner {
+    height: 100vh;
+    background-image: url("../../src/images/hero-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; } }
+
+/*DESKTOP*/
+@media only screen and (min-width: 1200px) {
+  html {
+    font-size: 75%; }
+  .container {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 62vw 38vw;
+    grid-template-rows: row; }
+  .left {
+    margin-left: 5rem;
+    margin-right: 15rem; } }
 
 .info {
   margin: 5rem 4rem 0 4rem; }
