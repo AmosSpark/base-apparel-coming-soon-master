@@ -33,50 +33,57 @@
   </head>
   <body>
     <div class="container">
-      <div class="header">
-        <header>
-          <div class="logo">
-            <figure>
-              <img src="../src/images/logo.svg" alt="logo" class="logo__img" />
-            </figure>
-          </div>
-          <div class="header__banner"></div>
-        </header>
+      <!-- RIGHT SIDE -->
+      <div class="left">
+        <div class="logo">
+          <figure>
+            <img src="../src/images/logo.svg" alt="logo" class="logo__img" />
+          </figure>
+        </div>
+        <div class="info">
+          <main>
+            <section>
+              <div class="header">
+                <!-- HEADER -->
+                <header>
+                  <h1 class="art__tit">
+                    <span class="art__tit--fir"
+                      >We're
+                      <span class="art__tit--sec"
+                        >coming <span class="art__tit--tir">soon</span></span
+                      ></span
+                    >
+                  </h1>
+                </header>
+              </div>
+              <div class="header-info">
+                <!-- HEADER INFO -->
+                <article>
+                  <p class="art__txt">
+                    Hello fellow shoppers! We're currently building our new
+                    fashion store. Add your email below to stay up-to-date with
+                    announcements and our launch deals.
+                  </p>
+                </article>
+              </div>
+            </section>
+            <!-- FORM -->
+            <section>
+              <form class="pg-fm">
+                <input
+                  type="text"
+                  class="pg-fm__inp"
+                  placeholder="Email Adress"
+                />
+                <button class="btn btn--round"></button>
+              </form>
+            </section>
+          </main>
+        </div>
       </div>
-      <div class="info">
-        <main>
-          <section>
-            <article>
-              <h1 class="art__tit">
-                <span class="art__tit--fir"
-                  >We're
-                  <span class="art__tit--sec"
-                    >coming <span class="art__tit--tir">soon</span></span
-                  ></span
-                >
-              </h1>
-            </article>
-          </section>
-          <section>
-            <article>
-              <p class="art__txt">
-                Hello fellow shoppers! We're currently building our new fashion
-                store. Add your email below to stay up-to-date with
-                announcements and our launch deals.
-              </p>
-            </article>
-          </section>
-          <section>
-            <form class="pg-fm">
-              <input
-                type="text"
-                class="pg-fm__inp"
-                placeholder="Email Adress"
-              />
-              <button class="btn btn--round"></button>
-            </form>
-          </section>
-        </main>
+      <!-- LEFT BANNER -->
+      <div class="right">
+        <div class="banner"></div>
       </div>
       <footer>
         <p class="attribution">
@@ -88,6 +95,6 @@
         </p>
       </footer>
     </div>
-    <!-- <script src="./index.js"></script> -->
+    <script src="./index.js"></script>
   </body>
 </html>
