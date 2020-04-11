@@ -8,10 +8,12 @@
     height: 5vh;
     border-radius: 5rem;
     outline: none;
-    border: 0.1rem solid $pri-des-red;
+    border: 0.1rem solid lighten($color: $pri-des-red, $amount: 15);
+    padding: 2rem 0 2rem 2rem;
 
     &::placeholder {
-      padding: 3rem;
+      font-size: 1rem;
+      color: rgb(187, 187, 187);
     }
   }
 }
@@ -19,5 +21,6 @@
 @media only screen and (min-width: $desktop-size) {
   .pg-fm__inp {
     width: 30vw !important;
+    height: 6vh !important;
   }
 }
