@@ -93,6 +93,8 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .pg-fm {
+    margin-top: 3rem;
+    display: flex;
     justify-content: start; }
   .pg-fm__inp {
     width: 30vw !important;
