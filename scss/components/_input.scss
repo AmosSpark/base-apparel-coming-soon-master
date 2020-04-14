@@ -1,19 +1,20 @@
 .pg-fm {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: start;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
 
   .pg-fm__inp {
-    position: relative;
-    width: 70vw;
+    display: flex;
+    width: 80vw;
     height: 5vh;
     border-radius: 5rem;
     outline: none;
     border: 0.1rem solid lighten($color: $pri-des-red, $amount: 15);
-    padding: 2rem 0 2rem 2rem;
+    padding: 2.5rem 0 2.5rem 2.5rem;
 
     &::placeholder {
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: rgb(187, 187, 187);
     }
   }

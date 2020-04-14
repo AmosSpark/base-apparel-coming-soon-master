@@ -4,10 +4,10 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    position: relative;
-    right: 5rem;
     width: 15vw;
-
+    height: 5vh;
+    position: absolute;
+    left: 75vw;
     background-image: linear-gradient(
       135deg,
       hsl(0, 80%, 86%),
@@ -24,8 +24,88 @@
 
 @media only screen and (min-width: $desktop-size) {
   .btn {
-    position: absolute;
-    right: 4rem;
+    position: relative;
+    right: 5rem;
     width: 5.5vw !important;
+  }
+}
+
+@media only screen and (max-height: 736px) {
+  .pg-fm {
+    .btn {
+      height: 5.5vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 731px) {
+  .pg-fm {
+    .btn {
+      height: 5.5vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 667px) {
+  .pg-fm {
+    .btn {
+      height: 6.2vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 645px) {
+  .pg-fm {
+    .btn {
+      height: 6.4vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 640px) {
+  .pg-fm {
+    .btn {
+      height: 6.3vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 612px) {
+  .pg-fm {
+    .btn {
+      height: 7vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 634px) {
+  .pg-fm {
+    .btn {
+      height: 6.8vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 592px) {
+  .pg-fm {
+    .btn {
+      height: 7vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 572px) {
+  .pg-fm {
+    .btn {
+      height: 7.3vh;
+    }
+  }
+}
+
+@media only screen and (max-height: 550px) {
+  .pg-fm {
+    .btn {
+      height: 7.5vh;
+    }
   }
 }

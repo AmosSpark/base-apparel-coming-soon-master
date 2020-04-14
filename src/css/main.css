@@ -29,7 +29,8 @@ body {
   font-family: "Josefin Sans", sans-serif; }
 
 .art__tit {
-  text-align: center; }
+  text-align: center;
+  margin-top: 6rem; }
   .art__tit .art__tit--fir,
   .art__tit .art__tit--sec,
   .art__tit .art__tit--tir {
@@ -46,7 +47,7 @@ body {
 
 .art__txt {
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 1.7;
   color: #ce9797; }
 
@@ -74,19 +75,20 @@ body {
     margin-top: 3rem; } }
 
 .pg-fm {
-  margin-top: 3rem;
-  display: flex;
-  justify-content: start; }
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center; }
   .pg-fm .pg-fm__inp {
-    position: relative;
-    width: 70vw;
+    display: flex;
+    width: 80vw;
     height: 5vh;
     border-radius: 5rem;
     outline: none;
     border: 0.1rem solid #e7cbcb;
-    padding: 2rem 0 2rem 2rem; }
+    padding: 2.5rem 0 2.5rem 2.5rem; }
     .pg-fm .pg-fm__inp::placeholder {
-      font-size: 1rem;
+      font-size: 1.5rem;
       color: #bbbbbb; }
 
 @media only screen and (min-width: 1200px) {
@@ -99,9 +101,10 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  position: relative;
-  right: 5rem;
   width: 15vw;
+  height: 5vh;
+  position: absolute;
+  left: 75vw;
   background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.2); }
 
@@ -110,9 +113,49 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .btn {
-    position: absolute;
-    right: 4rem;
+    position: relative;
+    right: 5rem;
     width: 5.5vw !important; } }
+
+@media only screen and (max-height: 736px) {
+  .pg-fm .btn {
+    height: 5.5vh; } }
+
+@media only screen and (max-height: 731px) {
+  .pg-fm .btn {
+    height: 5.5vh; } }
+
+@media only screen and (max-height: 667px) {
+  .pg-fm .btn {
+    height: 6.2vh; } }
+
+@media only screen and (max-height: 645px) {
+  .pg-fm .btn {
+    height: 6.4vh; } }
+
+@media only screen and (max-height: 640px) {
+  .pg-fm .btn {
+    height: 6.3vh; } }
+
+@media only screen and (max-height: 612px) {
+  .pg-fm .btn {
+    height: 7vh; } }
+
+@media only screen and (max-height: 634px) {
+  .pg-fm .btn {
+    height: 6.8vh; } }
+
+@media only screen and (max-height: 592px) {
+  .pg-fm .btn {
+    height: 7vh; } }
+
+@media only screen and (max-height: 572px) {
+  .pg-fm .btn {
+    height: 7.3vh; } }
+
+@media only screen and (max-height: 550px) {
+  .pg-fm .btn {
+    height: 7.5vh; } }
 
 .mob__ban {
   background-image: url("../../src/images/hero-mobile.jpg");
