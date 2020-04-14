@@ -92,6 +92,8 @@ body {
       color: #bbbbbb; }
 
 @media only screen and (min-width: 1200px) {
+  .pg-fm {
+    justify-content: start; }
   .pg-fm__inp {
     width: 30vw !important;
     height: 6vh !important; } }
