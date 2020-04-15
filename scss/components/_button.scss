@@ -24,9 +24,47 @@
 
 @media only screen and (min-width: $desktop-size) {
   .btn {
-    position: relative;
-    right: 5rem;
-    width: 5.5vw !important;
+    position: relative !important;
+    bottom: 7vh !important;
+    left: 30vw !important;
+    width: 8vw !important;
+    height: 7vh !important;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  .btn {
+    left: 28vw !important;
+    bottom: 7vh !important;
+    height: 7vh !important;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .btn {
+    left: 28vw !important;
+    bottom: 8vh !important;
+    height: 8vh !important;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .btn {
+    left: 24vw !important;
+  }
+}
+
+@media only screen and (width: 1200px) {
+  .btn {
+    left: 22vw !important;
+    height: 8vh !important;
+  }
+}
+
+@media only screen and (height: 950px) {
+  .btn {
+    height: 6.5vh !important;
+    bottom: 6.6vh !important;
   }
 }
 

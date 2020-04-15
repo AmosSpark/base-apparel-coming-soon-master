@@ -52,6 +52,12 @@ body {
   color: $pri-des-red;
 }
 
+@media only screen and (max-width: 1440px) {
+  .art__txt {
+    font-size: 1.6rem !important;
+  }
+}
+
 @media only screen and (min-width: $desktop-size) {
   html {
     font-size: $desktop-font-size;
@@ -60,9 +66,5 @@ body {
   .art__tit,
   .art__txt {
     text-align: left;
-  }
-
-  .art__txt {
-    font-size: 1.3rem;
   }
 }

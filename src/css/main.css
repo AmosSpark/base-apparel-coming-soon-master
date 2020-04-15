@@ -51,14 +51,16 @@ body {
   line-height: 1.7;
   color: #ce9797; }
 
+@media only screen and (max-width: 1440px) {
+  .art__txt {
+    font-size: 1.6rem !important; } }
+
 @media only screen and (min-width: 1200px) {
   html {
     font-size: 75%; }
   .art__tit,
   .art__txt {
-    text-align: left; }
-  .art__txt {
-    font-size: 1.3rem; } }
+    text-align: left; } }
 
 .logo {
   display: flex;
@@ -94,11 +96,20 @@ body {
 @media only screen and (min-width: 1200px) {
   .pg-fm {
     margin-top: 3rem;
-    display: flex;
-    justify-content: start; }
-  .pg-fm__inp {
-    width: 30vw !important;
-    height: 6vh !important; } }
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start; }
+    .pg-fm .pg-fm__inp {
+      width: 36vw !important;
+      height: 6vh !important; } }
+
+@media only screen and (width: 1280px) {
+  .pg-fm .pg-fm__inp {
+    width: 32vw !important; } }
+
+@media only screen and (width: 1200px) {
+  .pg-fm .pg-fm__inp {
+    width: 30vw !important; } }
 
 .pg-fm .btn {
   display: flex;
@@ -117,9 +128,37 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .btn {
-    position: relative;
-    right: 5rem;
-    width: 5.5vw !important; } }
+    position: relative !important;
+    bottom: 7vh !important;
+    left: 30vw !important;
+    width: 8vw !important;
+    height: 7vh !important; } }
+
+@media only screen and (max-width: 1440px) {
+  .btn {
+    left: 28vw !important;
+    bottom: 7vh !important;
+    height: 7vh !important; } }
+
+@media only screen and (max-width: 1366px) {
+  .btn {
+    left: 28vw !important;
+    bottom: 8vh !important;
+    height: 8vh !important; } }
+
+@media only screen and (max-width: 1280px) {
+  .btn {
+    left: 24vw !important; } }
+
+@media only screen and (width: 1200px) {
+  .btn {
+    left: 22vw !important;
+    height: 8vh !important; } }
+
+@media only screen and (height: 950px) {
+  .btn {
+    height: 6.5vh !important;
+    bottom: 6.6vh !important; } }
 
 @media only screen and (max-height: 736px) {
   .pg-fm .btn {

@@ -23,12 +23,29 @@
 @media only screen and (min-width: $desktop-size) {
   .pg-fm {
     margin-top: 3rem;
-    display: flex;
-    justify-content: start;
-  }
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
 
-  .pg-fm__inp {
-    width: 30vw !important;
-    height: 6vh !important;
+    .pg-fm__inp {
+      width: 36vw !important;
+      height: 6vh !important;
+    }
+  }
+}
+
+@media only screen and (width: 1280px) {
+  .pg-fm {
+    .pg-fm__inp {
+      width: 32vw !important;
+    }
+  }
+}
+
+@media only screen and (width: 1200px) {
+  .pg-fm {
+    .pg-fm__inp {
+      width: 30vw !important;
+    }
   }
 }
