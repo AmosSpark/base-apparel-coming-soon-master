@@ -112,6 +112,9 @@ body {
     width: 30vw !important; } }
 
 .pg-fm .btn {
+  display: none; }
+
+.pg-fm .btn-m {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -127,12 +130,20 @@ body {
   border-radius: 5rem; }
 
 @media only screen and (min-width: 1200px) {
+  .btn-m {
+    display: none !important; }
   .btn {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     position: relative !important;
     bottom: 7vh !important;
     left: 30vw !important;
     width: 8vw !important;
-    height: 7vh !important; } }
+    height: 7vh !important;
+    background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
+    box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.2); } }
 
 @media only screen and (max-width: 1440px) {
   .btn {
@@ -161,15 +172,15 @@ body {
     bottom: 6.6vh !important; } }
 
 @media only screen and (max-height: 736px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 5.5vh; } }
 
 @media only screen and (max-height: 731px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 5.5vh; } }
 
 @media only screen and (max-height: 667px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 6.2vh; } }
 
 @media only screen and (max-height: 645px) {
@@ -177,27 +188,27 @@ body {
     height: 6.4vh; } }
 
 @media only screen and (max-height: 640px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 6.3vh; } }
 
 @media only screen and (max-height: 612px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 7vh; } }
 
 @media only screen and (max-height: 634px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 6.8vh; } }
 
 @media only screen and (max-height: 592px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 7vh; } }
 
 @media only screen and (max-height: 572px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 7.3vh; } }
 
 @media only screen and (max-height: 550px) {
-  .pg-fm .btn {
+  .pg-fm .btn-m {
     height: 7.5vh; } }
 
 .mob__ban {
