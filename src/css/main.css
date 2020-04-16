@@ -51,6 +51,10 @@ body {
   line-height: 1.7;
   color: #ce9797; }
 
+.pg-fm__inp,
+.msg {
+  font-weight: bold; }
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important; } }
@@ -92,6 +96,14 @@ body {
     .pg-fm .pg-fm__inp::placeholder {
       font-size: 1.5rem;
       color: #bbbbbb; }
+  .pg-fm .msg {
+    color: #ce9797;
+    margin: 1rem 0 0 2.5rem; }
+  .pg-fm .icon {
+    border: 0.1rem solid #ce9797;
+    background-image: url("../../src/images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 25vw, center; }
 
 @media only screen and (min-width: 1200px) {
   .pg-fm {

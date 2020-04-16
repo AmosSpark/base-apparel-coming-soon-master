@@ -18,6 +18,18 @@
       color: rgb(187, 187, 187);
     }
   }
+
+  .msg {
+    color: $pri-des-red;
+    margin: 1rem 0 0 2.5rem;
+  }
+
+  .icon {
+    border: 0.1rem solid $pri-des-red;
+    background-image: url("../../src/images/icon-error.svg");
+    background-repeat: no-repeat;
+    background-position: 25vw, center;
+  }
 }
 
 @media only screen and (min-width: $desktop-size) {

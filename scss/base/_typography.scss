@@ -52,6 +52,11 @@ body {
   color: $pri-des-red;
 }
 
+.pg-fm__inp,
+.msg {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important;
