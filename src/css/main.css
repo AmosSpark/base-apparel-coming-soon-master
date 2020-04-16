@@ -98,12 +98,12 @@ body {
       color: #bbbbbb; }
   .pg-fm .msg {
     color: #ce9797;
-    margin: 1rem 0 0 2.5rem; }
+    margin: 1rem 0 0 0; }
   .pg-fm .icon {
-    border: 0.1rem solid #ce9797;
+    border: 0.2rem solid red;
     background-image: url("../../src/images/icon-error.svg");
     background-repeat: no-repeat;
-    background-position: 25vw, center; }
+    background-position: 55vw, center; }
 
 @media only screen and (min-width: 1200px) {
   .pg-fm {
@@ -113,7 +113,11 @@ body {
     justify-items: start; }
     .pg-fm .pg-fm__inp {
       width: 36vw !important;
-      height: 6vh !important; } }
+      height: 6vh !important; }
+    .pg-fm .msg {
+      margin: 1rem 0 0 2.5rem; }
+    .pg-fm .icon {
+      background-position: 25vw, center; } }
 
 @media only screen and (width: 1280px) {
   .pg-fm .pg-fm__inp {

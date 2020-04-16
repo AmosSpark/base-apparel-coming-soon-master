@@ -21,14 +21,14 @@
 
   .msg {
     color: $pri-des-red;
-    margin: 1rem 0 0 2.5rem;
+    margin: 1rem 0 0 0;
   }
 
   .icon {
-    border: 0.1rem solid $pri-des-red;
+    border: 0.2rem solid red;
     background-image: url("../../src/images/icon-error.svg");
     background-repeat: no-repeat;
-    background-position: 25vw, center;
+    background-position: 55vw, center;
   }
 }
 
@@ -42,6 +42,14 @@
     .pg-fm__inp {
       width: 36vw !important;
       height: 6vh !important;
+    }
+
+    .msg {
+      margin: 1rem 0 0 2.5rem;
+    }
+
+    .icon {
+      background-position: 25vw, center;
     }
   }
 }
