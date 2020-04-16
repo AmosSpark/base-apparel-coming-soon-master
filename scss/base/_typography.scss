@@ -57,6 +57,10 @@ body {
   font-weight: bold;
 }
 
+.msg {
+  font-size: 1.5rem;
+}
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important;
@@ -71,5 +75,9 @@ body {
   .art__tit,
   .art__txt {
     text-align: left;
+  }
+
+  .msg {
+    font-size: 1rem;
   }
 }

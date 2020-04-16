@@ -11,7 +11,7 @@
     border-radius: 5rem;
     outline: none;
     border: 0.1rem solid lighten($color: $pri-des-red, $amount: 15);
-    padding: 2.5rem 0 2.5rem 2.5rem;
+    padding: 2.5rem 12rem 2.5rem 2.5rem;
 
     &::placeholder {
       font-size: 1.5rem;
@@ -21,7 +21,8 @@
 
   .msg {
     color: $pri-des-red;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0 3rem;
+    justify-self: start;
   }
 
   .icon {

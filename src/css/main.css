@@ -55,6 +55,9 @@ body {
 .msg {
   font-weight: bold; }
 
+.msg {
+  font-size: 1.5rem; }
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important; } }
@@ -64,7 +67,9 @@ body {
     font-size: 75%; }
   .art__tit,
   .art__txt {
-    text-align: left; } }
+    text-align: left; }
+  .msg {
+    font-size: 1rem; } }
 
 .logo {
   display: flex;
@@ -92,13 +97,14 @@ body {
     border-radius: 5rem;
     outline: none;
     border: 0.1rem solid #e7cbcb;
-    padding: 2.5rem 0 2.5rem 2.5rem; }
+    padding: 2.5rem 12rem 2.5rem 2.5rem; }
     .pg-fm .pg-fm__inp::placeholder {
       font-size: 1.5rem;
       color: #bbbbbb; }
   .pg-fm .msg {
     color: #ce9797;
-    margin: 1rem 0 0 0; }
+    margin: 1rem 0 0 3rem;
+    justify-self: start; }
   .pg-fm .icon {
     border: 0.2rem solid red;
     background-image: url("../../src/images/icon-error.svg");
