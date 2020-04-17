@@ -171,13 +171,21 @@ body {
   .btn {
     left: 28vw !important;
     bottom: 7vh !important;
-    height: 7vh !important; } }
+    height: 7vh !important; }
+  .btn-v {
+    bottom: 10vh !important; }
+  .btn-f {
+    bottom: 8vh !important; } }
 
 @media only screen and (max-width: 1366px) {
   .btn {
     left: 28vw !important;
     bottom: 8vh !important;
-    height: 8vh !important; } }
+    height: 8vh !important; }
+  .btn-v {
+    bottom: 11.5vh !important; }
+  .btn-f {
+    bottom: 9.5vh !important; } }
 
 @media only screen and (max-width: 1280px) {
   .btn {

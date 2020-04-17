@@ -1,6 +1,7 @@
 // Variables
 const input = document.querySelector(".pg-fm__inp"),
   validationMsg = document.querySelector(".validate"),
+  button = document.querySelector(".btn"),
   form = document.querySelector(".pg-fm");
 
 // Events
@@ -27,14 +28,18 @@ const valInput = () => {
     validationMsg.classList.add("msg");
     validationMsg.textContent = "Email cannot be empty";
     input.classList.add("icon");
+    button.classList.add("btn-v");
   } else if (!re.test(input.value)) {
     validationMsg.classList.add("msg");
     validationMsg.textContent = "Please provide a valid email";
     input.classList.add("icon");
+    button.classList.add("btn-v");
   } else {
     validationMsg.textContent = "";
     input.classList.remove("icon");
+    button.classList.add("btn-f");
   }
+  button.classList.add("btn-v");
 };
 
 // Invoke Events
