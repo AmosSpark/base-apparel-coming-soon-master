@@ -18,11 +18,17 @@ const valForm = (e) => {
   e.preventDefault();
 };
 
+// const valInput = (e) => {
+//   const char = e.which || e.keyCode;
+//   console.log(char);
+// };
+
 // Event fns
 
 // Input
-const valInput = () => {
+const valInput = (e) => {
   const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+  // char = 8;
 
   if (input.value === "") {
     validationMsg.classList.add("msg");
@@ -37,9 +43,7 @@ const valInput = () => {
   } else {
     validationMsg.textContent = "";
     input.classList.remove("icon");
-    button.classList.add("btn-f");
   }
-  button.classList.add("btn-v");
 };
 
 // Invoke Events

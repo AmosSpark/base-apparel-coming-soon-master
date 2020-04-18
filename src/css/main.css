@@ -127,11 +127,15 @@ body {
 
 @media only screen and (width: 1280px) {
   .pg-fm .pg-fm__inp {
-    width: 32vw !important; } }
+    width: 32vw !important; }
+  .pg-fm .icon {
+    background-position: 21vw, center; } }
 
 @media only screen and (width: 1200px) {
   .pg-fm .pg-fm__inp {
-    width: 30vw !important; } }
+    width: 30vw !important; }
+  .pg-fm .icon {
+    background-position: 19vw, center; } }
 
 .pg-fm .btn {
   display: none; }
@@ -194,12 +198,20 @@ body {
 @media only screen and (width: 1200px) {
   .btn {
     left: 22vw !important;
-    height: 8vh !important; } }
+    height: 8vh !important; }
+  .btn-v {
+    bottom: 11.8vh !important; }
+  .btn-f {
+    bottom: 9.8vh !important; } }
 
 @media only screen and (height: 950px) {
   .btn {
     height: 6.5vh !important;
-    bottom: 6.6vh !important; } }
+    bottom: 6.6vh !important; }
+  .btn-v {
+    bottom: 9.5vh !important; }
+  .btn-f {
+    bottom: 7.8vh !important; } }
 
 @media only screen and (max-height: 736px) {
   .pg-fm .btn-m {
