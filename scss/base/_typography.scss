@@ -61,6 +61,14 @@ body {
   font-size: 1.5rem;
 }
 
+.attribution {
+  font-size: 1.5rem;
+  text-align: center;
+  .a {
+    text-decoration: none !important;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important;

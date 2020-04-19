@@ -26,9 +26,28 @@ const valForm = (e) => {
 // Event fns
 
 // Input
+// const valInput = (e) => {
+//   const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
+
+//   if (input.value === "") {
+//     validationMsg.classList.add("msg");
+//     validationMsg.textContent = "Email cannot be empty";
+//     input.classList.add("icon");
+//     button.classList.add("btn-v");
+//   } else if (!re.test(input.value)) {
+//     validationMsg.classList.add("msg");
+//     validationMsg.textContent = "Please provide a valid email";
+//     input.classList.add("icon");
+//     button.classList.add("btn-v");
+//   } else {
+//     validationMsg.textContent = "";
+//     input.classList.remove("icon");
+//     button.classList.add("btn-f");
+//   }
+// };
+
 const valInput = (e) => {
   const re = /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/;
-  // char = 8;
 
   if (input.value === "") {
     validationMsg.classList.add("msg");
@@ -41,8 +60,14 @@ const valInput = (e) => {
     input.classList.add("icon");
     button.classList.add("btn-v");
   } else {
-    validationMsg.textContent = "";
-    input.classList.remove("icon");
+    const char = 8;
+    if (e.keyCode === char) {
+      button.classList.add("btn-v");
+    } else {
+      validationMsg.textContent = "";
+      input.classList.remove("icon");
+      button.classList.add("btn-f");
+    }
   }
 };
 

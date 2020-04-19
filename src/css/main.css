@@ -58,6 +58,12 @@ body {
 .msg {
   font-size: 1.5rem; }
 
+.attribution {
+  font-size: 1.5rem;
+  text-align: center; }
+  .attribution .a {
+    text-decoration: none !important; }
+
 @media only screen and (max-width: 1440px) {
   .art__txt {
     font-size: 1.6rem !important; } }
@@ -303,3 +309,16 @@ body {
 
 .art__txt {
   margin-top: 2rem; }
+
+.attribution {
+  margin-top: 6vh; }
+  .attribution .a {
+    color: #3e52a3; }
+
+@media only screen and (min-width: 1200px) {
+  .attribution {
+    margin-top: 2rem; } }
+
+@media only screen and (width: 375px) {
+  .attribution {
+    margin-top: 18rem; } }
