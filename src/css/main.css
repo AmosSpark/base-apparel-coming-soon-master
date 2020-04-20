@@ -61,7 +61,7 @@ body {
 .attribution {
   font-size: 1.5rem;
   text-align: center; }
-  .attribution .a {
+  .attribution > a {
     text-decoration: none !important; }
 
 @media only screen and (max-width: 1440px) {
@@ -157,6 +157,9 @@ body {
   left: 75vw;
   background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
   box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.2); }
+  .pg-fm .btn-m:hover {
+    background-image: none;
+    background-color: #fdc4c4; }
 
 .pg-fm .btn--round {
   border-radius: 5rem; }
@@ -175,7 +178,10 @@ body {
     width: 8vw !important;
     height: 7vh !important;
     background-image: linear-gradient(135deg, #f8bfbf, #ee8c8c);
-    box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.2); } }
+    box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2), 0 8px 10px 0 rgba(0, 0, 0, 0.2); }
+    .btn:hover {
+      background-image: none;
+      background-color: #fdc4c4; } }
 
 @media only screen and (max-width: 1440px) {
   .btn {
@@ -310,15 +316,15 @@ body {
 .art__txt {
   margin-top: 2rem; }
 
+@media only screen and (min-width: 1200px) {
+  .header {
+    margin-top: 0rem; } }
+
 .attribution {
-  margin-top: 6vh; }
+  margin-top: 18rem; }
   .attribution .a {
     color: #3e52a3; }
 
 @media only screen and (min-width: 1200px) {
   .attribution {
     margin-top: 2rem; } }
-
-@media only screen and (width: 375px) {
-  .attribution {
-    margin-top: 18rem; } }

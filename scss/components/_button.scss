@@ -18,6 +18,11 @@
     );
     box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2),
       0 8px 10px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-image: none;
+      background-color: lighten($color: $pri-sof-red, $amount: 20);
+    }
   }
 
   .btn--round {
@@ -46,6 +51,11 @@
     );
     box-shadow: 0 0px 0.5px 0 rgba(0, 0, 0, 0.2),
       0 8px 10px 0 rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      background-image: none;
+      background-color: lighten($color: $pri-sof-red, $amount: 20);
+    }
   }
 }
 

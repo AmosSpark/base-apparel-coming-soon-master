@@ -1,5 +1,5 @@
 .attribution {
-  margin-top: 6vh;
+  margin-top: 18rem;
 
   .a {
     color: hsl(228, 45%, 44%);
@@ -9,11 +9,5 @@
 @media only screen and (min-width: $desktop-size) {
   .attribution {
     margin-top: 2rem;
-  }
-}
-
-@media only screen and (width: 375px) {
-  .attribution {
-    margin-top: 18rem;
   }
 }
